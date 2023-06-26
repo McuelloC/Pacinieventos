@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import  Button  from 'react-bootstrap/Button';
 import {AiOutlineMail} from "react-icons/ai"
 import { About } from './About';
-
+import { ImageGallery,PageFooter } from '../components';
 
 
 const Home = () => {
@@ -41,7 +41,15 @@ const Home = () => {
       <div>
        <About/>
       </div>
-     
+      <div className='container'>
+        
+      <ImageGallery/>
+      </div>
+     <footer>
+     <PageFooter/>
+     </footer>
+
+  
 
     </>
   )

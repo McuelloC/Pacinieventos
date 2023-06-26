@@ -1,0 +1,86 @@
+#Contact-Div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+  }
+  
+  #InputDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type='range'] {
+    width: 100%;
+    background-color:#be085d;
+  }
+  
+  h6 {
+    margin-bottom: 10px;
+  }
+  
+  #Dropdown-Contact {
+    display: flex;
+      gap: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+   #dropdown.toggle {
+    background-color: aqua;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+    width: 100%;
+  }
+  
+  Button {
+    margin-top: 10px;
+  }
+
+  
+ .range-contact::-moz-range-track {
+    background-color: #be085d;
+  }
+  
+  .range-contact::-ms-fill-lower {
+    background-color: #be085d;
+  }
+  
+  /* Color del botón del rango */
+.range-contact::-webkit-slider-thumb {
+    background-color: #be085d;
+  }
+  
+ .range-contact::-moz-range-thumb {
+    background-color: #be085d;
+  }
+  
+ .range-contact::-ms-thumb {
+    background-color: #be085d;
+  }
+  
+  

@@ -1,2 +1,5 @@
 export {Navbar1} from "./navbar/Navbar"
 export {CarouselClient} from "./carousels/CarouselClient"
+export {ContactForm} from "./contactform/ContactForm"
+export {ImageGallery} from "./imagegallery/ImageGallery"
+export {PageFooter} from "./footer/PageFooter"

@@ -87,3 +87,33 @@
   .carousel-about{
     margin-top: 10%;
   }
+
+  @media (max-width: 1497px) {
+       #Client-Div{
+         margin-top:10%;
+       }
+
+    }
+
+    
+  @media (max-width: 1394px) {
+    #Client-Div{
+      margin-top:15%;
+    }
+
+    #Client-Div .carousel-about{
+      margin-right:50%;
+    }
+
+ }
+
+ @media (max-width: 1290px) {
+  #Client-Div{
+    margin-top:30%;
+  }
+
+  #Client-Div .carousel-about{
+    margin-right:50%;
+  }
+
+}

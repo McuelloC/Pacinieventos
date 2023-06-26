@@ -1,9 +1,10 @@
 import React from 'react'
-import { CarouselClient } from '../components'
+import { ContactForm } from '../components'
+
 
 const Contact = () => {
   return (
-    <div><CarouselClient/></div>
+    <ContactForm/>
   )
 }
 
